@@ -1,0 +1,62 @@
+/* Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+
+}.main-header {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/header-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+
+/* Header section */
+.main-header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffdfc4;
+    color: #333;
+}
+
+.main-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #b33c00;
+}
+
+.main-header p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Menu links */
+.menu-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 30px 10px;
+    background-color: #ffe9d6;
+}
+
+.menu-links a {
+    text-decoration: none;
+    background-color: #b33c00;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.menu-links a:hover {
+    background-color: #803000;
+}
